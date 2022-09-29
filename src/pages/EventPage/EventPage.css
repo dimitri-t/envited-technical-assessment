@@ -1,0 +1,144 @@
+.event-page-container {
+  margin: auto;
+  display: flex;
+}
+
+.hosted-by {
+  color: #828282;
+}
+
+/* Phone */
+@media screen and (max-width: 768px) {
+  .event-page-container {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .event-image-container {
+    align-self: center;
+  }
+
+  .event-text-container {
+    padding: 10px 20px;
+  }
+
+  .event-name {
+    font-size: 28px;
+  }
+
+  .hosted-by {
+    font-size: 14px;
+    padding: 5px 0px;
+  }
+
+  .event-image {
+    margin: auto;
+    width: 375px;
+    height: 375px;
+  }
+
+  .info-container {
+    display: flex;
+    padding: 20px 5px;
+  }
+
+  .info-container-text {
+    padding-left: 20px;
+    color: #240d57;
+  }
+
+  .info-image {
+    width: 26px;
+    height: 26px;
+    color: #8456ec;
+  }
+}
+
+/* Ipad */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .event-page-container {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .event-image-container {
+    flex-direction: column;
+    padding-top: 88px;
+    align-self: center;
+  }
+
+  .event-image {
+    margin: auto;
+    width: 593px;
+    height: 593px;
+  }
+
+  .event-text-container {
+    padding: 10px 100px;
+  }
+
+  .event-name {
+    font-size: 48px;
+  }
+
+  .hosted-by {
+    font-size: 18px;
+    padding: 10px 0px;
+  }
+
+  .info-container {
+    display: flex;
+    padding: 10px;
+  }
+
+  .info-container-text {
+    padding-left: 20px;
+    color: #240d57;
+  }
+
+  .info-image {
+    width: 26px;
+    height: 26px;
+    color: #8456ec;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .event-page-container {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding-top: 200px;
+  }
+
+  .event-name {
+    font-size: 48px;
+    padding-bottom: 20px;
+  }
+
+  .event-image {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+  }
+
+  .hosted-by {
+    font-size: 18px;
+  }
+
+  .info-container {
+    display: flex;
+    padding: 40px 20px 10px 20px;
+  }
+
+  .info-container-text {
+    padding-left: 20px;
+    color: #240d57;
+  }
+
+  .info-image {
+    width: 26px;
+    height: 26px;
+    color: #8456ec;
+  }
+}
